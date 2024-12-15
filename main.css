@@ -1,0 +1,334 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://sadhost.neocities.org/images/tiles/raindrops.webp");
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-left:90px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    max-width: 300px;
+}
+
+.navigation {
+    padding-left:90px;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navitem{
+    background-color: rgb(156, 0, 0);
+    color: black;
+    width: auto;
+    height: auto;
+    margin-right: 0px;
+    padding: 0 3px;
+    border-right: 1px solid black;
+    text-decoration: underline;
+    padding: 3px;
+}
+
+.navitem:hover{
+    color: blue;
+}
+
+.profile-pic {
+    max-height: 300px;
+    max-width: 210px;
+    width: 100%;
+}
+
+.row{
+    gap: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content {  
+    width: 35%;
+}
+
+.user {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    max-width: 60%;
+    color: rgb(156, 0, 0);
+    border: 10px solid rgb(156, 0, 0);
+    background-image: url("https://sadhost.neocities.org/images/tiles/0064_small.gif");
+    padding-bottom: 100px;
+}
+
+.contact {
+    background-color: rgb(0, 0, 0);
+    gap: 20px;
+    max-width: 40%;
+    color: rgb(156, 0, 0);
+    border: 10px solid rgb(156, 0, 0);
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://sadhost.neocities.org/images/tiles/0064_small.gif");
+}
+
+.contact h4{
+    background-color: rgb(156, 0, 0);
+    color: black;
+    padding: 5px;
+}
+
+.meowspaceURL{
+    color: rgb(156, 0, 0);
+    background-color: rgb(0, 0, 0);
+    max-width: 50%;
+    gap: 20px;
+    margin-top: 20px;
+    border: 10px solid rgb(156, 0, 0);
+    padding: 20px;
+    margin-left: 40px;
+}
+
+audio {
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.interests{
+    color: rgb(156, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border: 10px solid rgb(156, 0, 0);
+    max-width: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://sadhost.neocities.org/images/tiles/0064_small.gif");
+}
+
+.interests h4{
+    background-color: rgb(156, 0, 0);
+    color: black;
+    padding: 5px;
+}
+
+.interests table{
+    justify-content: center;
+}
+
+.topic{
+    border-right: 2px solid rgb(156, 0, 0);
+    border-top: 2px solid rgb(156, 0, 0);
+    background-color: rgb(156, 0, 0);
+    color: black;
+}
+
+.details{
+    color: rgb(156, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border: 10px solid rgb(156, 0, 0);
+    max-width: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    background-image: url("https://sadhost.neocities.org/images/tiles/0064_small.gif");
+}
+
+.details h4{
+    background-color: rgb(156, 0, 0);
+    color: black;
+    padding: 5px;
+}
+
+.right-content {
+    width: 35%;
+}
+
+.network {
+    text-align: center;
+    color: rgb(156, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border: 10px solid rgb(156, 0, 0);
+    padding: 20px;
+}
+
+.blog{
+    color: rgb(156, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border: 10px solid rgb(156, 0, 0);
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("https://sadhost.neocities.org/images/tiles/0064_small.gif");
+}
+
+.blog a {
+    color:blue;
+}
+
+.blog a:hover{
+    color: rgb(156, 0, 0);
+}
+
+.blurbs{
+    color: rgb(156, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border: 10px solid rgb(156, 0, 0);
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("https://sadhost.neocities.org/images/tiles/0064_small.gif");
+}
+
+.friends{
+    color: rgb(156, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border: 10px solid rgb(156, 0, 0);
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("https://sadhost.neocities.org/images/tiles/0064_small.gif");
+}
+
+.friends h4{
+    background-color: rgb(156, 0, 0);
+    color: black;
+    padding: 5px;
+}
+
+.view-friends{
+    padding-left: 300px;
+}
+
+.view-friends a{
+    color:blue;
+}
+
+.view-friends a:hover{
+    color: rgb(156, 0, 0);
+}
+
+.top8 img{
+    max-height: 160px;
+    max-width: 140px;
+    width: 60%;
+    margin-top: 5px;
+}
+
+.top8 a{
+    text-decoration: none;
+    color: rgb(156, 0, 0);
+}
+
+.top8 a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.comments{
+    color: rgb(156, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border: 10px solid rgb(156, 0, 0);
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("https://sadhost.neocities.org/images/tiles/0064_small.gif");
+}
+
+.comments a{
+    color:blue;
+}
+
+.comments a:hover{
+    color: rgb(156, 0, 0);
+}
+
+.comments h4{
+    background-color: rgb(156, 0, 0);
+    color: black;
+    padding: 5px;
+}
+
+.comments table{
+    padding: 30px;
+    width: 100%;
+}
+
+.comments table a{
+    text-decoration: none;
+    color: black;
+}
+
+.comments table a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.table-comments img{
+    max-height: 160px;
+    max-width: 140px;
+    width: 60%;
+    padding: 10px;
+}
+
+.comment-user{
+    background-color: rgb(156, 0, 0);
+    padding: 15px;
+    width: 40%;
+    text-align: center;
+}
+
+.comment-text{
+    background-color: black;
+    padding: 10px;
+}
+
+.add-comment{
+    padding-left:450px;
+}
+
+.footer {
+    padding-left:90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footeritem{
+    background-color: rgb(156, 0, 0);
+    color: black;
+    width: auto;
+    height: auto;
+    margin-right: 0px;
+    padding: 0 3px;
+    border-right: 1px solid black;
+    text-decoration: underline;
+    padding: 3px;
+}
+
+.footeritem:hover{
+    color: blue;
+}
+
+
+
